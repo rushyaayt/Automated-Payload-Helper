@@ -64,3 +64,4 @@ What happens when this tool runs?
 #### [!WARNING]
 ### This software utility is developed strictly for Educational Purposes Only and Authorized Penetration Testing Assessments where proper managerial sign-off and explicit scopes of work have been established. Utilizing this tool against infrastructures without explicit prior consent is unlawful and constitutes a breach of computer misuse acts globally. The developer assumes no legal accountability for unauthorized utilization or collateral infrastructure impairments
 # 🥰 Special Thanks to my own agent and my partner friend.
+###### Hayo i am ayushya
