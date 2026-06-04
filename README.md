@@ -44,7 +44,7 @@ chmod +x payload_helper.sh
 ./payload_helper.sh
 ```
 What happens when this tool runs?
-⭕ The script asks you for your LHOST (IP Address) and LPORT. (You can use ifconfig or ip a command in another terminal to find your IP).
-⭕ It then asks you whether you want a Windows (exe) or Linux (elf) payload (press 1 or 2 and enter).
-⭕ As soon as you do this, msfvenom will start in the background and a file called backdoor.exe or backdoor.elf will be created in your folder.
-⭕ Along with this, a resource file named listener.rc will be created. As per the instructions at the end, you can directly start Metasploit's hacking listener by entering the command msfconsole -r listener.rc.
+- ⭕ The script asks you for your LHOST (IP Address) and LPORT. (You can use ifconfig or ip a command in another terminal to find your IP). 
+- ⭕ It then asks you whether you want a Windows (exe) or Linux (elf) payload (press 1 or 2 and enter).
+- ⭕ As soon as you do this, msfvenom will start in the background and a file called backdoor.exe or backdoor.elf will be created in your folder.
+- ⭕ Along with this, a resource file named listener.rc will be created. As per the instructions at the end, you can directly start Metasploit's hacking listener by entering the command msfconsole -r listener.rc.
