@@ -48,3 +48,19 @@ What happens when this tool runs?
 - ⭕ It then asks you whether you want a Windows (exe) or Linux (elf) payload (press 1 or 2 and enter).
 - ⭕ As soon as you do this, msfvenom will start in the background and a file called backdoor.exe or backdoor.elf will be created in your folder.
 - ⭕ Along with this, a resource file named listener.rc will be created. As per the instructions at the end, you can directly start Metasploit's hacking listener by entering the command msfconsole -r listener.rc.
+
+## 📖 Operational Workflow
+- 1️⃣ Upon startup, the script prompts for the Listener Host configuration (LHOST - your local or listener IP address).
+- 2️⃣ Input the destination port (LPORT, e.g., 4444).
+- 3️⃣ Select your target architecture deployment profile:
+- - ⭕ Option 1 : Windows Architecture (windows/meterpreter/reverse_tcp) -> Outputs backdoor.exe
+  - ⭕ Option 2 : Linux Architecture (linux/x64/meterpreter/reverse_tcp) -> Outputs backdoor.elf
+- 4️⃣ The tool constructs the raw binaries alongside a unified listener.rc execution profile.
+- 5️⃣ Launch your automated listener instance instantly by using the terminal command provided at execution termination:
+- ```Bash
+  msfconsole -r listener.rc
+  ```
+## ⚠️ Legal Disclaimer
+#### [!WARNING]
+### This software utility is developed strictly for Educational Purposes Only and Authorized Penetration Testing Assessments where proper managerial sign-off and explicit scopes of work have been established. Utilizing this tool against infrastructures without explicit prior consent is unlawful and constitutes a breach of computer misuse acts globally. The developer assumes no legal accountability for unauthorized utilization or collateral infrastructure impairments
+# 🥰 Special Thanks to my own agent and my partner friend.
