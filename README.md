@@ -1,4 +1,4 @@
-# Automated-Payload-Helper
+# 1. Automated-Payload-Helper
 **Automated Payload Helper** is a lightweight, efficient Bash-based Command Line Interface (CLI) utility designed for cybersecurity professionals, penetration testers, and ethical hacking students. 
 
 The tool streamlines the post-exploitation workflow by automating the repetitive syntax of Metasploit's `msfvenom` and `msfconsole`. It enables users to generate target-specific payloads and automatically structure handler resource files (`.rc`) with a single command line wizard, eliminating manual entry errors.
@@ -65,3 +65,26 @@ What happens when this tool runs?
 ### This software utility is developed strictly for Educational Purposes Only and Authorized Penetration Testing Assessments where proper managerial sign-off and explicit scopes of work have been established. Utilizing this tool against infrastructures without explicit prior consent is unlawful and constitutes a breach of computer misuse acts globally. The developer assumes no legal accountability for unauthorized utilization or collateral infrastructure impairments
 # 🥰 Special Thanks to my own agent and my partner friend.
 ###### Hayo i am ayushya
+
+# 2. Reverse Shell Payload Generator
+give him executable permission
+```
+chmod +x rev_gen.py
+```
+then run the script
+```
+python3 rev_gen.py
+```
+# 3. Payload Encoder / Obfuscator
+```
+sudo apt update
+sudo apt install nodejs -y
+```
+३. स्क्रिप्टला एक्झिक्युटेबल परवानगी द्या:
+```
+chmod +x encoder.js
+```
+run the script 
+```
+node encoder.js
+```
