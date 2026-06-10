@@ -60,31 +60,37 @@ What happens when this tool runs?
 - ```Bash
   msfconsole -r listener.rc
   ```
+
+
+# 2. Reverse Shell Payload Generator
+A highly versatile script designed to quickly output customized, multi-language interactive reverse shell strings for rapid use during capture-the-flag (CTF) challenges or authorized lab assessments.
+## 🚀 Usage Guide
+```
+# Grant execution permissions
+chmod +x rev_gen.py
+
+# Launch the generation script
+python3 rev_gen.py
+```
+# 3. Payload Encoder / Obfuscator (Node.js Tool)
+A lightweight cryptographic and structural script used to encode raw payloads, assisting security researchers in studying detection mechanics and anti-virus evasion behaviors.
+## 📋 Environment Setup
+Ensure Node.js is deployed on your system before proceeding:
+```
+# Update local packages and install Node.js runtime
+sudo apt update
+sudo apt install nodejs -y
+```
+## 🚀 Execution Profile
+```
+# Grant execution permissions to the encoder script
+chmod +x encoder.js
+
+# Execute the tool via Node.js
+node encoder.js
+```
 ## ⚠️ Legal Disclaimer
 #### [!WARNING]
 ### This software utility is developed strictly for Educational Purposes Only and Authorized Penetration Testing Assessments where proper managerial sign-off and explicit scopes of work have been established. Utilizing this tool against infrastructures without explicit prior consent is unlawful and constitutes a breach of computer misuse acts globally. The developer assumes no legal accountability for unauthorized utilization or collateral infrastructure impairments
 # 🥰 Special Thanks to my own agent and my partner friend.
 ###### Hayo i am ayushya
-
-# 2. Reverse Shell Payload Generator
-give him executable permission
-```
-chmod +x rev_gen.py
-```
-then run the script
-```
-python3 rev_gen.py
-```
-# 3. Payload Encoder / Obfuscator
-```
-sudo apt update
-sudo apt install nodejs -y
-```
-३. स्क्रिप्टला एक्झिक्युटेबल परवानगी द्या:
-```
-chmod +x encoder.js
-```
-run the script 
-```
-node encoder.js
-```
