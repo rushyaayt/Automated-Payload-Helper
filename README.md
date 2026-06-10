@@ -92,5 +92,17 @@ node encoder.js
 ## ⚠️ Legal Disclaimer
 #### [!WARNING]
 ### This software utility is developed strictly for Educational Purposes Only and Authorized Penetration Testing Assessments where proper managerial sign-off and explicit scopes of work have been established. Utilizing this tool against infrastructures without explicit prior consent is unlawful and constitutes a breach of computer misuse acts globally. The developer assumes no legal accountability for unauthorized utilization or collateral infrastructure impairments
+
+
+
+##  🤝 Acknowledgments
+- Special thanks to my own automated AI agent and my close partner-friend for continuous technical collaboration.
+- Developed and maintained with passion by Ayushya (rushyaayt).
+
+
+
+
 # 🥰 Special Thanks to my own agent and my partner friend.
 ###### Hayo i am ayushya
+
+
