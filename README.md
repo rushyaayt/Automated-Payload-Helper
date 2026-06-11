@@ -30,6 +30,7 @@ Execute the following commands sequentially within your terminal environment to 
 ```bash
 git clone [https://github.com/rushyaayt/Automated-Payload-Helper.git](https://github.com/rushyaayt/Automated-Payload-Helper.git)
 cd Automated-Payload-Helper
+cd Payload_Scripts
 ```
 This tool uses msfvenom to quickly create a payload and create a resource file to start its 'Listener'.
 (Note: You will need to have Metasploit installed on your system to run this).
